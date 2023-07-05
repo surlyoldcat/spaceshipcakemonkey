@@ -1,0 +1,97 @@
+{
+  "monkeys": [
+    {
+      "id": 1,
+      "name": "Andy",
+      "species": "cebus apella",
+      "spaceshipIds": [11],
+      "cakeIds": [222,666]
+    },
+    {
+      "id": 2,
+      "name": "Rick",
+      "species": "homo sapiens",
+       "spaceshipIds": [77],
+      "cakeIds": [555]
+    },
+    {
+      "id": 3,
+      "name": "Emma",
+      "species": "cebus apella",
+      "spaceshipIds": [22, 33],
+      "cakeIds": [222]
+    },
+    {
+      "id": 4,
+      "name": "Dali",
+      "species": "cebus apella",
+      "spaceshipIds": [33],
+      "cakeIds": [333, 444]
+    },
+    {
+      "id": 5,
+      "name": "Trella",
+      "species": "macaca arctoides",
+      "spaceshipIds": [33],
+      "cakeIds": [111, 222, 333, 444, 555, 666]
+    }
+  ],
+  "spaceships": [
+     {
+        "spaceshipId": 11,
+        "name": "Limiting Factor",
+        "type": "GOU"
+      },
+    {
+        "spaceshipId": 22,
+        "name": "Very Little Gravitas Indeed",
+        "type": "GCU"
+      },
+    {
+        "spaceshipId": 33,
+        "name": "Sweet and Full of Grace",
+        "type": "GCU"
+      },
+    {
+        "spaceshipId": 55,
+        "name": "Ethics Gradient",
+        "type": "GSV"
+      },
+    {
+        "spaceshipId": 66,
+        "name": "Subtle Shift In Emphasis",
+        "type": "GCV"
+      },
+    {
+        "spaceshipId": 77,
+        "name": "Demented But Determined",
+        "type": "other"
+      }
+  ],
+  "cakes": [
+    {
+      "cakeId": 111,
+      "cakeType": "chocolate"
+    },
+    {
+      "cakeId": 222,
+      "cakeType": "strawberry cheesecake"
+    },
+    {
+      "cakeId": 333,
+      "cakeType": "angel food"
+    },
+    {
+      "cakeId": 444,
+      "cakeType": "generic bundt"
+    },
+    {
+      "cakeId": 555,
+      "cakeType": "lemon meringue"
+    },
+    {
+      "cakeId": 666,
+      "cakeType": "devils food"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+schema {
+    query: Query
+}
+
+type Query {
+    allMonkeys: [Monkey]
+    getMonkey(id: Int!): Monkey
+    allSpaceships: [Spaceship]
+}
+
+type Monkey {
+    id: Int!
+    name: String!
+    species: String!
+    spaceships: [Spaceship]
+    cakes: [Cake]
+}
+
+type Spaceship {
+    spaceshipId: Int!
+    name: String!
+    type: String!
+    crew: [Monkey]  #this one should be Batch
+}
+
+type Cake {
+    cakeId: Int!
+    cakeType: String!
+}
