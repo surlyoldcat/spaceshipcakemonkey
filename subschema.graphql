@@ -1,0 +1,15 @@
+schema {
+    query: Query
+}
+
+type Query {
+    getSubmarine(id: Int!): Submarine
+    allSubmarines: [Submarine]
+}
+
+type Submarine {
+    id: Int!
+    name: String!
+    type: String!
+}
+
